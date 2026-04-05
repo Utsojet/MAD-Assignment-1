@@ -31,13 +31,6 @@ class BU11 extends StatelessWidget {
         body: SafeArea(
           child: Column(
             children: [
-              // Top white thin line
-              // Container(
-              //   height: 8,
-              //   width: double.infinity,
-              //   color: Colors.white,
-              // ),
-
               // Top Row Section
               Row(
                 children: [
@@ -95,11 +88,9 @@ class BU11 extends StatelessWidget {
                 ],
               ),
 
-              // Big middle space
               Expanded(
                 child: Stack(
                   children: [
-                    // Registration Card
                     Align(
                       alignment: const Alignment(-0.15, -0.10),
                       child: Container(
@@ -127,8 +118,6 @@ class BU11 extends StatelessWidget {
                         ),
                       ),
                     ),
-
-                    // Nickname Circle
                     Align(
                       alignment: const Alignment(0.82, 0.85),
                       child: Container(
@@ -161,7 +150,6 @@ class BU11 extends StatelessWidget {
                 ),
               ),
 
-              // Bottom Name Box (extra smart touch)
               Container(
                 margin: const EdgeInsets.only(bottom: 25),
                 padding: const EdgeInsets.symmetric(horizontal: 24, vertical: 14),
